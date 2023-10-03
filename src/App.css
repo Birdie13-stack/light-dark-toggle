@@ -1,5 +1,19 @@
 @import url("light-theme.css");
 
-body.dark-mode {
-  @import url("dark-theme.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.light-theme {
+  background-color: white;
+  color: black;
+  transition: .10s;
+}
+
+.dark-theme {
+  background-color: black;
+  color: white;
+  transition: .10s;
 }
