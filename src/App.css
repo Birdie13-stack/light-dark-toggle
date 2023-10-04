@@ -1,0 +1,5 @@
+@import url("light-theme.css");
+
+body.dark-mode {
+  @import url("dark-theme.css");
+}
